@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio EBAC </title>
+        <link rel="stylesheet" href="./main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="./imagens/93ff71fae04deba3cc47c7aafb4a1dcc-chap--u-de-formatura---cone-plana-by-vexels.png" alt="">
+            <h1>calculadora de matérias</h1>
+        </header>
+        <form id="formAtividade">
+            <input id="nomeA"  type="text" placeholder="nome da atividade" required>
+            <input id="notaA" type="number" placeholder="nota da atividade" min="0" max="10" required>
+            <button type="submit">adicionar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>nome da atividade</th>
+                    <th>nota da atividade</th>
+                    <th>aprovado ?</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>média final</td>
+                    <td id="mediaFinalValor">---</td>
+                    <td id="mediaFinalResultado">---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
