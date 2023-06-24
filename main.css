@@ -77,3 +77,9 @@ table td{
 .reprovado{
     background-color: red;
 }
+#prim{
+    position: absolute;
+    top: 490px;
+    right: 70px;
+    font-size: 100px;
+}
